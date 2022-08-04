@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import "./BaseMap.css";
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiYmxha2VjaGFlIiwiYSI6ImNsNmQwdHpuYjB4ZmgzY3FsbW51OHJlNXUifQ.GN-IGEGZlAwbwWswdQC13g";
+mapboxgl.accessToken = process.env.REACT_APP_TOKEN;
+//   "pk.eyJ1IjoiYmxha2VjaGFlIiwiYSI6ImNsNmQwdHpuYjB4ZmgzY3FsbW51OHJlNXUifQ.GN-IGEGZlAwbwWswdQC13g";
 
 const BaseMap = () => {
   const mapContainer = useRef(null);
@@ -28,6 +28,7 @@ const BaseMap = () => {
       setLat(map.current.getCenter().lat.toFixed(4));
       setZoom(map.current.getZoom().toFixed(2));
     });
+    // return () => map.current.remove();
   });
   return (
     <div>

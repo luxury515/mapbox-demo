@@ -3,17 +3,6 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Daepori",
-        "description": ""
-      },
-      "geometry": {
-        "coordinates": [128.601369844128, 38.16990428978013],
-        "type": "Point"
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "title": "Lincoln Park",
         "description": "A northside park that is home to the Lincoln Park Zoo"
       },
