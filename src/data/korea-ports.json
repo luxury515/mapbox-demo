@@ -3,44 +3,44 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Lincoln Park",
+        "title": "대포리",
         "description": "A northside park that is home to the Lincoln Park Zoo"
       },
       "geometry": {
-        "coordinates": [-87.637596, 41.940403],
+        "coordinates": [128.601369844128, 38.16990428978013],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Burnham Park",
+        "title": "대산",
         "description": "A lakefront park on Chicago's south side"
       },
       "geometry": {
-        "coordinates": [-87.603735, 41.829985],
+        "coordinates": [126.35274862595475, 36.99157371454787],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Millennium Park",
+        "title": "동해",
         "description": "A downtown park known for its art installations and unique architecture"
       },
       "geometry": {
-        "coordinates": [-87.622554, 41.882534],
+        "coordinates": [129.07, 37.29],
         "type": "Point"
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "title": "Grant Park",
+        "title": "광양",
         "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
       },
       "geometry": {
-        "coordinates": [-87.619185, 41.876367],
+        "coordinates": [127.42, 34.56],
         "type": "Point"
       }
     },

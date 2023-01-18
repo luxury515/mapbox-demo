@@ -47,7 +47,7 @@ const SymbolMap = () => {
       //에러
       console.log(response);
     });
-  // + , - 버튼 추가
+
   // 맵 초기화
   useEffect(() => {
     const map = new mapboxgl.Map({

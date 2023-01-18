@@ -1,7 +1,7 @@
 import React from "react";
 
 const GeoCoderMap = () => {
-  return <div>1111</div>;
+  return <div>GeoCoderMap</div>;
 };
 
 export default GeoCoderMap;
